@@ -2,6 +2,7 @@
 using namespace std;
 
 int Sumar(int a, int b);
+int Restar(int a, int b);
 
 int main() {
     int a,b;
@@ -12,11 +13,16 @@ int main() {
     cout<<"Ingrese el segundo numero entero:";
     cin>>b;
     
-    cout<<"La suma de esos dos numero es: "<<Sumar(a,b);
-    
+    cout<<"La suma de esos dos numero es: "<<Sumar(a,b)<<endl;
+    cout<<"La resta de esos dos numeros es: "<<Restar(a,b)<<endl;
+
     return 0;
 }
 
 int Sumar(int a, int b) {
     return a + b;
+}
+
+int Restar(int a, int b){
+    return a - b;
 }
