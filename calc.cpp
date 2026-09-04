@@ -4,6 +4,7 @@ using namespace std;
 int Sumar(int a, int b);
 int Restar(int a, int b);
 float Multiplicar (int a, int b);
+float Dividir(int a, int b);
 
 int main() {
     int a,b;
@@ -17,6 +18,7 @@ int main() {
     cout<<"La suma de esos dos numero es: "<<Sumar(a,b)<<endl;
     cout<<"La resta de esos dos numeros es: "<<Restar(a,b)<<endl;
     cout<<"La multiplicacion de esos dos numeros es: "<<Multiplicar(a,b)<<endl;
+    cout<<"La division de esos dos numeros es: "<<Dividir(a,b)<<endl;
 
     return 0;
 }
@@ -31,4 +33,8 @@ int Restar(int a, int b){
 
 float Multiplicar(int a, int b){
     return a * b;
+}
+
+float Dividir(int a, int b){
+    return a / b;
 }
