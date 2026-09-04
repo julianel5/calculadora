@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 //Version actualizada desde la nube (Es decir desde github)
-int Sumar(int a, int b);
+int Sumar(int num1, int num2);
 int Restar(int a, int b);
 float Multiplicar (int a, int b);
 float Dividir(int a, int b);
@@ -23,8 +23,8 @@ int main() {
     return 0;
 }
 
-int Sumar(int a, int b) {
-    return a + b;
+int Sumar(int num1, int num2) {
+    return num1 + num2;
 }
 
 int Restar(int a, int b){
